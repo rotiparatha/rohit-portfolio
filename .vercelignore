@@ -1,0 +1,7 @@
+# Never upload local secrets or local content (the deployed site uses Vercel env vars + Blob)
+.env*
+!.env.example
+data
+.next
+node_modules
+*.tsbuildinfo
